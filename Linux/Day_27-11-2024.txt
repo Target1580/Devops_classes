@@ -1,1 +1,106 @@
+--------------------------------------------------------------------------------------------------
+Ubuntu
+--------------------------------------------------------------------------------------------------
+-Most Popular Linux Distro
+-secure and reliable
+-Multi-variant releases. Ex-Disktop, Server
+-Frequent releases
+-Easy to use
+-It contain a wide range of software like LibreOffice, Thunderbrid, etc. and also, game such as sudoku and chess
+
+
+--------------------------------------------------------------------------------------------------
+Fedora
+--------------------------------------------------------------------------------------------------
+- Lates technology having huge support base
+
+- New release frequently
+- Easily Customizable
+- Can upgrade Version Without reinstalling
+- Stable & Reliable
+- Easy to Use
+
+
+
+
+---------------------------------------------------------------------------------------------------
+File
+---------------------------------------------------------------------------------------------------
+Cat "/proc/cpuinfo"
+
+you don't need command to check cpu info ,but can print the file "/proc/cpuinfo" like a simple plain text.
+
+-There are some special files that represent hardware devices, system information, etc.
+
+- The /proc filesystem in Linux give a detail about kernale's run time operations in form of plain text files.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Types of File in Linux  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+Check the First Letter which is describing the file type.
+Based on the destro, each file type is assigned with different color code.
+
+
+Q. What is the Types of file in Linux ?
+
+ -  Normal file
+ d  Normal directory
+ l  Symbolic Link ( Short cut to File/directory)
+ s  Socket (Pass the data between two processes)
+ p  Pipe(it is similar to Socket but user can not work)
+ c  Process Character hardware communication.
+
+
+
+NOTE  =>  Hard Link-> When main file  & Origin  file changes then lined file not work
+---------------------------------------------------------------------------------------------------
+Run Levels
+---------------------------------------------------------------------------------------------------
+What are Run Levels?
+
+-The init process determines the default run level to execute the associated scripts as per the configured level.
+-You can manually change the run level using the telinit command (requires superuser permission).
+-It represents the operational state of the system, describing the services available.
+
+----------------------------------------------------------------------------------------------------
+Run Levels in Linux
+----------------------------------------------------------------------------------------------------
+Run Level	Description
+0	Halt the system
+1	Single-user mode
+2	Multi-user mode without networking
+3	Multi-user mode with CLI (no GUI)
+4	User-definable
+5	Multi-user mode with GUI
+6	Reboot
+
+----------------------------------------------------------------------------------------------------
+Pipe
+----------------------------------------------------------------------------------------------------
+-A pipe (|) is used to direct the output of one command as the input to another command.
+-It creates an internal connection between commands, avoiding temporary files.
+The data flows unidirectionally, from left to right.
+
+
+Common Example:
+
+cat file.txt | grep "Linux"
+
+
+
+some Questions 
+
+what is difference between shutdown & reboot & sleep & restart?
+Hybernate vs Sleep?
+
+
+
+
+Q. Difference between file & file.txt in linux?
+
+ANS: 
+>file	Refers to any file without an extension. Could be a text file, binary file, or any other type.
+
+>file.txt	Specifically refers to a text file because of the .txt extension. It is just a naming convention in Linux.
+
+In Linux, file extensions are not mandatory for file identification. The system determines file types based on their content or metadata, not their extension. For example, file and file.txt could both be plain text files or something else.
 
