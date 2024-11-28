@@ -105,9 +105,9 @@ Sleep :- Best for short breaks where you want to quickly resume work.
 Q. Difference between file & file.txt in linux?
 
 ANS: 
-file	:-Refers to any file without an extension. Could be a text file, binary file, or any other type.
+file:-Refers to any file without an extension. Could be a text file, binary file, or any other type.
 
-file.txt	:-Specifically refers to a text file because of the .txt extension. It is just a naming convention in Linux.
+file.txt:-Specifically refers to a text file because of the .txt extension. It is just a naming convention in Linux.
 
 In Linux, file extensions are not mandatory for file identification. The system determines file types based on their content or metadata, not their extension. For example, file and file.txt could both be plain text files or something else.
 
