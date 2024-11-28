@@ -34,6 +34,7 @@ you don't need command to check cpu info ,but can print the file "/proc/cpuinfo"
 
 - The /proc filesystem in Linux give a detail about kernale's run time operations in form of plain text files.
 
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Types of File in Linux  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
 
 Check the First Letter which is describing the file type.
@@ -52,6 +53,9 @@ Q. What is the Types of file in Linux ?
 
 
 NOTE  =>  Hard Link-> When main file  & Origin  file changes then lined file not work
+
+
+
 ---------------------------------------------------------------------------------------------------
 Run Levels
 ---------------------------------------------------------------------------------------------------
@@ -60,6 +64,9 @@ What are Run Levels?
 -The init process determines the default run level to execute the associated scripts as per the configured level.
 -You can manually change the run level using the telinit command (requires superuser permission).
 -It represents the operational state of the system, describing the services available.
+
+
+
 
 ----------------------------------------------------------------------------------------------------
 Run Levels in Linux
@@ -72,6 +79,9 @@ Run Level	Description
 4	User-definable
 5	Multi-user mode with GUI
 6	Reboot
+
+
+
 
 ----------------------------------------------------------------------------------------------------
 Pipe
@@ -86,9 +96,10 @@ Common Example:
 cat file.txt | grep "Linux"
 
 
+--------------------------------------------------------------------------------------------
 
 some Questions 
-
+-------------------------------------------------------------------------------------------
 Q. what is difference between shutdown & reboot & sleep & restart?
 ANS:
 Shutdown	:- Completely powers off the system, terminating all processes and safely turning off the hardware.
