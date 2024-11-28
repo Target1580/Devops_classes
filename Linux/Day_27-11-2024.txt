@@ -89,18 +89,53 @@ cat file.txt | grep "Linux"
 
 some Questions 
 
-what is difference between shutdown & reboot & sleep & restart?
-Hybernate vs Sleep?
+Q. what is difference between shutdown & reboot & sleep & restart?
+ANS:
+Shutdown	:- Completely powers off the system, terminating all processes and safely turning off the hardware.
+Reboot :-	Powers off and immediately restarts the system. Equivalent to shutting down and starting again.
+Sleep :-	Saves the current state of the system in RAM and goes into a low-power mode. Quick to resume.
+Restart :-	Same as reboot; the system shuts down and restarts immediately.
 
-
+Q. Hybernate vs Sleep?
+ANS:-
+Hybernate :- Ideal for long durations of inactivity when you want to completely power off.
+Sleep :- Best for short breaks where you want to quickly resume work.
 
 
 Q. Difference between file & file.txt in linux?
 
 ANS: 
->file	Refers to any file without an extension. Could be a text file, binary file, or any other type.
+file	:-Refers to any file without an extension. Could be a text file, binary file, or any other type.
 
->file.txt	Specifically refers to a text file because of the .txt extension. It is just a naming convention in Linux.
+file.txt	:-Specifically refers to a text file because of the .txt extension. It is just a naming convention in Linux.
 
 In Linux, file extensions are not mandatory for file identification. The system determines file types based on their content or metadata, not their extension. For example, file and file.txt could both be plain text files or something else.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  EC2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+EC2 stands for Amazon Elastic Compute Cloud
+
+Steps to create Ubuntu machine with the help of instance instance:
+
+Step 1: Sign in to AWS Console
+Log in to your AWS Management Console.
+Navigate to the EC2 Dashboard.
+Step 2: Launch an EC2 Instance
+Click Launch Instance.
+Name your instance (e.g., "Ubuntu Server").
+Choose an Amazon Machine Image (AMI):
+Search for an Ubuntu AMI (e.g., Ubuntu Server 22.04 LTS).
+Select an Instance Type:
+For basic use, select t2.micro (free-tier eligible).
+Configure Key Pair:
+Create or select an existing key pair for secure SSH access.
+Configure Network Settings:
+Ensure SSH (port 22) is open in the security group rules.
+Step 3: Launch the Instance
+Review your configuration and click Launch Instance.
+Wait for the instance to initialize.
+Step 4: Connect to the Ubuntu Machine
+
+
 
