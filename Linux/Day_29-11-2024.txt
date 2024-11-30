@@ -1,0 +1,73 @@
+
+-----------------------------------------------------------------------------------------
+Directory and File Management
+-----------------------------------------------------------------------------------------
+
+
+mkdir <directory_name>    Purpose: Create a new directory.
+touch <file_name>  Purpose: Create a new file.
+ls                 Purpose: List files and directories in the current directory.
+ls -a              Purpose: List all files and directories in the current directory (including hidden files).
+ls -l              Purpose: List files and directories in long format.
+pwd                Purpose: Display the directory you are currently working in.
+cd <directory_path>Purpose: Change to a specified directory.
+cd ~               Purpose: Change to the home directory.
+cd ..              Purpose: Move to the parent directory.
+mkdir -p <directory_name>   Purpose: Create a directory along with any necessary parent directories.
+clear              Purpose: Clear the terminal screen.
+----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+File Viewing and Editing
+-----------------------------------------------------------------------------------------
+cat [file_name]    Purpose: Show the contents of a file.
+
+vi [file_name] or vim [file_name]   Purpose: Open or create a file using the Vi/Vim text editor.
+----------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Modes and Commands in Vi/Vim:
+--------------------------------------------------------------------------------------
+Insert mode: Press i to start editing.
+Command mode: Press Esc and then use:
+:w → Save changes.
+:q → Quit.
+:wq → Save and quit.
+
+
+------------------------------------------------------------------------------------
+TASK
+-----------------------------------------------------------------------------------
+
+Q.What is cat and use of this command?
+
+ANS:
+
+Define:
+The cat (short for concatenate) command in Linux is used to view, create, or combine files. It is one of the most commonly used commands to display the content of a file on the terminal
+
+Uses of the cat Command:
+
+1. Display the Contents of a File
+   cat example.txt
+   
+2. Create a New File
+   Cat > newfile.txt
+   (Type the content of file, then press ctrl+D to save and exit.)
+
+3. Append Text to an Existing File
+   cat >> existingfile.txt
+   (Type the content to add, then press Ctrl+D to save and exit.)
+
+   
+4. Combine Multiple Files into One
+   cat file1.txt file2.txt > combined.txt
+   (Combines file1.txt and file2.txt into combined.txt)
+
+5. Show Line Numbers
+   cat -n example.txt
+   (Displays the content of example.txt with line numbers)
+
+
+
+
