@@ -103,3 +103,16 @@ Also learn some commands
   lsblk: Lists information about block devices (disks).
     Example: lsblk
   =============================================
+
+
+
+
+
+>>>>>>>>>>>>>>> Questions <<<<<<<<<<<<<<<
+1. nic and renice:
+   - nice: Starts a process with a specified priority (nice value).
+   - renice: Changes the priority of an already running process.
+
+2. Inode: A data structure storing metadata about a file (permissions, size, location on disk).
+
+3. Swap: Disk space used when RAM is full to prevent crashes, though slower than RAM.
