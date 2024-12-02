@@ -1,0 +1,105 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> top Command  in linux <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+The top command output is divided into several sections, each with specific information about system performance and processes. 
+This section provides a breakdown of the output based on the information it shows.
+
+
+>>>Header Information
+
+    This Section shows basic system stats like uptime, active users, and recent system load:
+
+    - up. Displays the System running time since the last reboot.
+    -user(s).Shows the current number of active users.
+
+    -load average. Lists the average system load over the last 1,5, and 15 minutes. Lower values indicate less CPU demand.
+
+>>>Tasks
+  The Tasks section provides a quick overview of all running processes and their states:
+
+  - total = Indicates the number of processes currently running on the system.
+  - running = Number of processes actively using CPU resources.
+  - sleeping = Processes waiting for an event to continue (e.g., input/output).
+  - stopped = Processes that are paused or waiting for signals.
+  - zombie = Processes that have finished execution but remain in the process table.
+
+>>>CPU Usage
+
+  This section shows how various processes are using the CPU.
+
+  -us = Time the CPU spends on user (non-kernel) processes.
+  -sy = Time spent on system/Kernel processes.
+  -ni = Time spent on user processes with adjusted priority(nice Values).
+  -id = Percentage of time the cpu is idle.
+  -wa = Time spent waiting for I/O operations (like disk access).
+  -hi = Time handling hardware interrupts.
+  -si = Time handling software interrupts.
+  -st = Time "stolen" from the virtual machine by the hypervisor (when using virtualization).
+
+>>>Memory Usage (Mem)
+  memory usage stats explain how the system uses physical RAM.
+
+  - total = Total physical available.
+  - free = Unused RAM memory.
+  - used = Total memory in use by the system.
+  - buff/cashe = Memory reserved for buffers and caches. This memory can be reclaimed if needed by other processes.
+
+>>>Swap Usage (Swap)
+  The Swap section shows the disk-based memory usage, which the system uses when RAM is full.
+
+  - total = Total swap memory (disk-based memory used when RAM is full).
+  - free = Unused swap memory.
+  - used = Swap currently in use.
+  - avail Mem = Total memory available (sum of free and buffered memory)
+
+>>>Process List
+    The Process List displays detailed information about each active process.
+
+    -  PID = The process ID.
+    -  USER = The user account that started the process.
+    -  PR = Process priority.
+    -  NI = Nice value, affecting scheduling priority.
+    -  VIRT = Total virtual memory the process uses.
+    -  RES = Resident memory (actual physical memory in use).
+    -  SHR = Shared memory used by the process.
+    -  S = Process state (e.g., S for sleeping, R for running).
+    -  %CPU = Percentage of CPU time used by the process.
+    -  %MEM = Percentage of RAM used by the process.
+    -  TIME+ = Total CPU time the process has consumed.
+    -  COMMAND = The program, service, or command responsible for each active process.
+
+-------------------------------------------------------------------------------
+Also learn some commands
+------------------------------------------------------------------------------
+
+>>>File Management
+
+  =============================================
+  mv:
+   Move a file or directory.
+    Example: mv file1 /destination/
+   Rename a file or directory.
+    Example: mv oldname newname
+  ===========================================
+  rm: Remove files.
+    Example: rm file1
+  ===========================================
+  rmdir: Remove empty directories.
+    Example: rmdir dir1
+  ===========================================
+  cp: Copy files or directories.
+    Example: cp file1 /destination/
+  ===========================================
+
+
+>>>Hardware Information
+  ============================================
+  lshw: Displays detailed hardware information.
+    Example: sudo lshw
+
+  ============================================
+  lscpu: Shows CPU architecture details.
+    Example: lscpu
+  ============================================
+  lsblk: Lists information about block devices (disks).
+    Example: lsblk
+  =============================================
