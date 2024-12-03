@@ -1,0 +1,166 @@
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle Phases <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+1. Plan  
+2. Code  
+3. Build  
+4. Test  
+5. Release  
+6. Deploy  
+7. Operate  
+8. Monitor  
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> What is DevOps <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Defination:
+      DevOps is a practice that allows a single team to manage the entire application development life cycle 
+      that is development, testing, deployment and monitoring.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>> What Does DevOPS Do? <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+- Integrates developers and operations teams
+- Improves collaboration and productivity by:
+    > Automating infratructure 
+    > Automating workflows
+    > Continuously measuring application performance
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>> Benifits of DevOPs <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+1. Cost Avoidance  
+2. Accelerated Innovation  
+3. Flexibility  
+4. Agility & Speed  
+5. IT Efficiency  
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>  DevOps Adoption <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+1. cultural Transformaion 
+2. Process Transformation 
+3. Technology Transformation
+4. Automate Everything
+5. Adoption of Tools
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle : Plan <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+First stage of DevOps cycle, where you Plan, Track, Visualize, and
+Summarize your Project before working/starting it. 
+
+>Planning Tools
+
+  JIRA
+  Trello
+  Tricentis
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle : Code <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Secound stage of DevOps cycle, where the developses write their code
+
+>  coding Tools
+    git
+    eclips
+    subversion
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle : Build <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Buil is pre-relase version and is defined by build number, rather than by a release
+
+  >  Bulding Tools
+        Maven(appache)
+        jenkins
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle : Test <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Process of executing automated tests as part of the software delivery pipeline in order to obtain feedback on 
+the business risks associated with a software release as rapidly as possible.
+
+>  Testing Tools
+
+    Apache JMeter
+    Selenium
+    JUnit
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle : Release(Delivery) <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+This phase helps to integrate code into a shared repository using which, you can detect 
+and locate errors quickly and easily.
+
+>  Releasing Tools
+
+    Travis CI
+    GitLab
+    Bamboo
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle : Deploy <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Manage and maintain development and deployment of software systems and servers in any computational environment.
+
+>  Deploying Tools
+
+      AWS
+      Ansible
+      Chef
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle : Operate <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+This phase is to keep the system upgrade with the latest update
+
+>  Operating Tools
+      AWS
+      Ansiable
+      chef
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DevOps Lifecycle : Monitor <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+It ensures that the application is performing as desired and the environment is stable.
+It quickly determines when a service is unavailable and understands the underlying causes.
+
+>  Monitoring Tools
+    Prometheus - Monitor
+    Grafana - For Visualization
+
+
+
+
+=============================================================================================
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Daily Task <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+=============================================================================================
+
+
+2-12-2024 (Shubham)
+
+  whoami
+  ifconfig
+  shutdown now
+
+
+
+30-11-2012 (MY)
+
+  mkdir -p
+  top
+  htop
+
+
+2-12-2024 (MY)
+
+  tree
+  head
+  less
+  tail
+
+
+3-12-2023
+
+  df -  Displays the disk space usage on file systems.
+  useradd - Adds a new user to the system.
+  usergroup - Adds a new group to the system.
