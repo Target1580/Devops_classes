@@ -164,3 +164,16 @@ It quickly determines when a service is unavailable and understands the underlyi
   df -  Displays the disk space usage on file systems.
   useradd - Adds a new user to the system.
   usergroup - Adds a new group to the system.
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Task Question <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+what is the difference in --help vs man command in linux.
+
+ANS:
+      --help: Quick, one-screen summary of a command's options and usage.  
+      man: Detailed, in-depth manual for a command with comprehensive information.  
+
+      Use --help for quick references, and man for detailed learning.
