@@ -1,0 +1,176 @@
+git --version   check the version of Git
+
+LTS - Long term support ()
+    Purpose of LTS:
+      -  Provides reliable and stable versions of software.
+      -  Includes critical security patches and bug fixes but avoids introducing breaking changes or new features.
+      -  Ideal for users and organizations prioritizing stability over new features.
+
+
+
+git clone <http:repository URL>
+
+
+ GitHub Settings Page Overview
+
+1. General Settings  
+   - Repository Name: Change or confirm the repository name.
+   - Description: Edit repository details.
+   - Features: Enable/disable issues, discussions, and wikis.
+   - Archive/Delete: Manage repository lifecycle.
+
+2. Collaborators & Teams  
+   - Add collaborators or manage team access.
+   - Set permissions like Read, Write, or Admin.
+
+3. Branches  
+   - Protect branches: Configure rules for branch protection.
+   - Default branch: Set the main branch for development.
+
+4. Webhooks  
+   - Automate workflows by integrating GitHub with external services.
+   - Configure triggers for events like pushes or pull requests.
+
+5. Integrations & Applications  
+   - Manage installed apps or integrations like CI/CD tools.
+
+6. Secrets and Variables  
+   - Store sensitive data like API keys securely.
+   - Used in workflows for CI/CD automation.
+
+7. Pages  
+   - Configure GitHub Pages for static website hosting.
+   - Customize domains and deploy branches.
+
+8. Code and Automation  
+   - Set rules for pull requests and automated checks.
+   - Manage Actions workflows.
+
+9. Access Control  
+   - Fine-tune repository visibility: Public, Private, or Internal.
+   - Manage member roles and permissions.
+
+10. Danger Zone  
+    - Archive, transfer ownership, or delete the repository permanently.
+
+
+ Code and Automation
+
+1. Rules for Pull Requests
+   - Enforce specific rules for pull requests to ensure quality and consistency.
+   - Options include requiring a certain number of reviews, status checks, or enforcing linear commit history.
+
+2. GitHub Actions Workflows
+   - Automate your development workflows using GitHub Actions.
+   - Create custom workflows for CI/CD pipelines, testing, deployments, or any task triggered by repository events.
+   - Use YAML files stored in the .github/workflows directory to define automation processes.
+
+3. Status Checks
+   - Configure status checks to enforce requirements before merging pull requests.
+   - These can include test results, code scans, or other external integrations.
+
+4. Code Scanning and Security
+   - Enable automated code scanning tools to identify vulnerabilities and bugs in your codebase.
+   - Use tools like Dependabot to detect and fix dependency issues.
+
+5. Custom Actions
+   - Create reusable custom actions for workflows.
+   - Share or use community-created actions available in the GitHub Marketplace.
+
+6. Automated Merging
+   - Set up rules for auto-merging pull requests that meet all criteria, saving time on manual merges.
+
+7. Templates and Configuration
+   - Use issue templates, pull request templates, and workflow templates to standardize and speed up processes.
+   - Configure templates under the .github directory for consistent practices across the repository.
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Daily commands <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. clear - Clears the terminal screen.  
+
+2. mv  
+  - mv source destination - Moves or renames files.  
+3. cp  
+  - cp source destination - Copies files.  
+- rm  
+  - rm file_name - Removes a file.  
+  - rm -rf dir_name - Removes a directory and its contents recursively.  
+- vi  
+  - i - Enter insert mode.  
+  - q - Quit without saving.  
+  - wq - Write (save) and quit.  
+  - w! - Force write to a file.
+
+ 
+- whoami - Prints the current username.  
+- top - Displays a dynamic list of running processes.  
+- lscpu - Displays CPU architecture information.  
+- lsblk - Lists information about block devices.  
+- cat /proc/cpuinfo - Displays CPU details.  
+- lshw - Displays detailed hardware information.
+
+
+ 
+- sudo su - Switches to the superuser.  
+- cd  
+  - cd ~ - Navigates to the home directory.  
+  - cd .. - Moves one directory up.  
+  - cd / - Navigates to the root directory.  
+  - cd dir1/dir2/dir3 - Navigates through multiple directories.
+
+ 
+- mkdir  
+  - mkdir -p - Creates directories, including parent directories if needed.  
+
+- touch - Creates an empty file.  
+
+- ls  
+  - ls -l - Lists files with detailed info.  
+  - ls -la - Lists all files, including hidden ones, with details.  
+  - ls -a - Lists all files, including hidden ones. 
+
+- pwd - Prints the current working directory.  
+
+- cat  
+  - cat file_name - Displays the content of a file.  
+  - cat -n file_name - Shows line numbers while displaying the content.  
+  - cat > new_file_name - Creates a new file and writes to it.  
+  - cat file1 >> file2 - Appends content of file1 to file2.  
+
+
+
+- tree: Displays directory structure in a tree-like format.  
+  Example: tree -L 2 (shows directories up to 2 levels).
+
+- head: Shows the first 10 lines of a file.  
+  Example: head -n 5 file.txt (shows first 5 lines).
+
+- less: Opens a file for scrollable viewing.  
+  Example: less file.txt (Space to scroll, q to quit).
+
+- tail: Shows the last 10 lines of a file.  
+  Example: tail -n 5 file.txt (shows last 5 lines).  
+
+
+ - df   : Displays the disk space usage on file systems.
+ - df -h : Displays disk space usage in human-readable format
+ - useradd -m username  : Creates a user with a home directory.
+ - passwd username  - To add a password for a user in Linux, use the passwd command
+ - groupadd groupname : Adds a new group to the system.
+ - usermod -aG groupname username :Adds a user to a group.
+
+
+
+Today 4-12-2024
+ - gpasswd groupname : Sets or updates the password for a group.
+- groupdel groupname : This removes the group.
+- userdel -r tanmay : This removes the user tanmay and deletes their home directory
+- cat /etc/passwd : Lists all users on the system.
+- cat /etc/group : Lists all groups on the system
+
+
+
