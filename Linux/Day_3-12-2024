@@ -1,0 +1,72 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> why Need version control? <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+  - Used for the collaboration to the team.
+  - we are used for storing version
+  - Figuring out what happened among the team members
+  - Backup
+  - Version control helps the teams to solve these kinds of problems, by tracking every individual change by each contributor and helps prevent concurrent work from conflicting.
+  - A version control software supports a developer's preferred workflow without imposing one way of working.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> What is version control <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+Version Control is a system that documents changes made to a file or a set of files. It allows multiple users to
+manage multiple revisions of the same unit of information. It is a snapshot of your project over time.
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Version Control Types <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Local Version Control (LVC)
+
+   -  The practice of having the Version Database in the local
+      computer
+  -   Local database keeps a record of the changes made to files
+      in version database
+
+
+Centralized Version Control (CVC)
+
+  -  Local Version Control's issues are resolved by Centralized Version Control
+  -  In CVC, a central repository is maintained where all the versioned files are kept  
+  -  Now users can checkout, and check-in files from their different computers at any time
+
+  Centralized Version Control: Issue
+    -  Issue: In case of central server failure whole system goes down
+    -  Solution: Distributed Version Control
+  ex: SVN
+
+Distributed Version Control
+
+  - Version Database is stored at every users' local system and at the remote server
+  -  Users modification the local files and then upload the changes to the remote server
+  -  If any of the servers die, a client server can be used to restore
+
+ex: git, github, gitbuket, Azure repository, aws commite.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> why Git is a clear Winner? <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+Snapshots
+  -  Git records changes made to a file rather than file itself. That means if a file isn't changed it isn't stored again.
+
+Fast Operations
+  -  Almost every operation on git is local, hence the speed offered by Git is lightning fast compared to other VCS's.
+
+Distributed
+  -  Every user has his own copy of the repository data stored locally allowing full functionality even on disconnection.
+
+Branch Handling
+  -  Every collaborator's working directory is in itself a branch. Different branches can be merged with ease.
+
+Integrity
+  -  Check-sum before storing ensures that you can't make any changes to anything without Git recording that change.
+
+Robust
+  -  Nearly every task in Git is undoable and it is really hard to lose any change or data in Git.
+
+
+
+  
