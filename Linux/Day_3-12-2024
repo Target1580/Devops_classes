@@ -68,6 +68,46 @@ Robust
   -  Nearly every task in Git is undoable and it is really hard to lose any change or data in Git.
 
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Questions <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+Q  how to find file and open it in Linux?
+Ans: find command use for finding file and vi editor command is use for  open file we can use cat  that cat help to displai data on screen not going inside 
+
+Q  how can we use github in secure way?
+Ans: There are two ways one way is ssh and other one is PAT(personal access token)
+
+ Q. how we can managefile and folder permission using numbering and alphabatic?
+
+Ans :
+1) Alphabetic Method:
+  Use chmod with letters to modify permissions:
+  u (user), g (group), o (others), a (all)
+  Add (+), remove (-), or set (=) permissions: r (read), w (write), x (execute). 
+
+2)Numeric Method:
+  Represent permissions as three octal digits (user, group, others):
+  4 = read, 2 = write, 1 = execute
+  Add values for combined permissions: 7 = rwx, 6 = rw-, etc.
+
+
+  Q.  How many public and private  repository we can create in  github?
+ANS: 
+    -  Public Repositories: Unlimited for all GitHub users.
+    -  Private Repositories:
+        Unlimited for free accounts, but they may have some restrictions (e.g., collaborators).
+        Advanced features for private repositories are available in paid plans.
+
+
+
+
+
+
+
+
+
+
 
   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Daily commands <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 1. clear - Clears the terminal screen.  
