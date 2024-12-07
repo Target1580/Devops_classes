@@ -1,0 +1,91 @@
+
+ List of Git and Linux Commands with Usage:
+
+1. ls -la
+   - Usage: Lists all files (including hidden files) and directories in the current directory, along with their permissions, sizes, and modification dates.
+   
+2. git status
+   - Usage: Shows the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+
+3. git stash
+   - Usage: Saves the changes in your working directory that you’re not ready to commit. It allows you to revert to a clean working directory without losing your progress.
+
+4. git stash list
+   - Usage: Lists all stashes you’ve saved. Each stash is identified with an index (stash@{0}, stash@{1}, etc.).
+
+5. git stash pop stash@{}
+   - Usage: Restores the changes from a stash back into the working directory. It removes the stash from the list after applying it.
+
+6. git add .
+   - Usage: Stages all modified and new files in the current directory and its subdirectories for the next commit.
+
+7. git commit -m "message"
+   - Usage: Commits the staged changes with a brief message describing what the commit does.
+
+8. git commit -am "message"
+   - Usage: Stages and commits all tracked files with a given message. It’s useful for committing changes to files that Git already tracks.
+
+9. git commit --amend -m "new commit message"
+   - Usage: Modifies the most recent commit by changing its message or adding new changes to it (useful if you forgot to include a file in the previous commit).
+
+10. git push
+    - Usage: Uploads your local commits to a remote repository, typically GitHub or GitLab.
+
+11. git push --set-upstream origin branch_name
+    - Usage: Pushes the branch to the remote repository and sets the default remote tracking branch, allowing future pushes without specifying the remote branch.
+
+12. git branch -l
+    - Usage: Lists all local branches in your repository.
+
+13. git branch -d branch_name
+    - Usage: Deletes the specified branch. The branch must not be checked out, and it must have been fully merged.
+
+14. git checkout branch_name
+    - Usage: Switches to the specified branch in the repository.
+
+15. git log
+    - Usage: Shows the commit history for the current branch, displaying the commit hash, author, date, and message.
+
+16. git switch branch_name
+    - Usage: An alternative to git checkout, used for switching branches. This command is simpler and more intuitive.
+
+17. git config --help
+    - Usage: Displays help documentation for Git configuration commands.
+
+18. git config --global user.name "name"
+    - Usage: Sets the global username for commits. This will be used for all repositories unless overridden in a specific repository.
+
+19. git config --global user.email "email"
+    - Usage: Sets the global email for commits. This will be used for all repositories unless overridden in a specific repository.
+
+20. git restore --staged file_name
+    - Usage: Removes a file from the staging area without modifying the working directory. Essentially "unstages" the file.
+
+21. git fetch
+    - Usage: Downloads objects and refs from a remote repository but doesn’t merge any changes into the current branch. It’s used to update the local copy of the remote branches.
+
+22. git pull
+    - Usage: Fetches changes from a remote repository and merges them into the current branch in one step.
+
+23. git merge --squash branch_name
+    - Usage: Merges the specified branch into the current branch, but instead of creating multiple commits, it squashes all changes into a single commit.
+
+24. history
+    - Usage: Displays the history of commands entered in the terminal, useful for recalling previously run commands.
+
+25. clear
+    - Usage: Clears the terminal screen, making it more readable by removing all the previous output.
+
+26. vi filename
+    - Usage: Opens the specified file in the vi text editor for editing.
+
+27. cat filename
+    - Usage: Displays the contents of a file to the terminal.
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Daily commands <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ssh-keygen
+git init
