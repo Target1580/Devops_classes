@@ -1,6 +1,63 @@
-Differece between branching and merging stratergy?
-How can you delete a branch in Git?
-difference between merge and rebase?
+Q. Differece between branching and merging stratergy?
+ANS:
+
+1. Branching Strategy:  
+   - Definition: A branching strategy defines how branches are structured and managed within a version control system to facilitate collaboration and workflow organization.
+   - Purpose: Helps teams organize work, isolate features, bug fixes, or experiments, and manage parallel development efficiently.
+   - Examples: 
+     - Git Flow: Separates branches like `develop`, `feature`, `release`, and `hotfix`.
+     - GitHub Flow: Uses a single `main` branch with feature branches.
+     - Trunk-Based Development: Directly commits to the `main` branch with short-lived branches.
+   - Focus: Primarily on planning how the development process is divided into branches.  
+
+2. Merging Strategy:  
+   - Definition: A merging strategy defines how changes from different branches are combined into a single branch in a version control system.
+   - Purpose: Ensures smooth integration of code from different branches while minimizing conflicts.
+   - Types:  
+     - Fast-forward Merge: Incorporates changes without creating an additional commit when there’s a linear history.
+     - Three-way Merge: Creates a merge commit when there’s a non-linear history.
+     - Rebase: Reapplies commits on top of another branch for a cleaner history.
+     - Squash Merge: Combines all changes from a branch into a single commit.
+   - Focus: Deals with how changes are integrated back into the main or target branch.
+
+
+
+Q. How can you delete a branch in Git?
+ANS:
+
+Use git branch -d <branch-name> to delete a local branch. Use git push origin-delete <branch-name> to delete a branch from a remote repository.
+
+
+
+Q. difference between merge and rebase?
+ANS:
+'git merge' combines changes from two branches, preserving their history, while 'git rebase' move or combines a sequence of commite, providing a cleanere history.
+
+
 how to change user and group permission?
-how to share repository via ssh?
+ANS:
+  1. Changing UID (User ID)
+    To change the UID, use the usermod command.
+
+    Command Syntax:
+      sudo usermod -u <new_uid> <username>
+    Example:
+      sudo usermod -u 2001 demo
+    This changes the UID of the user demo to 2001.
+
+ 2. Changing GID (Group ID)
+  To change the GID, use the groupmod command.
+
+  Command Syntax:
+    sudo groupmod -g <new_gid> <groupname>
+
+  Example:
+    sudo groupmod -g 3001 demo_group
+  This changes the GID of the group demo_group to 3001.
+
+
+
+
+Q. how to share repository via ssh?
+Ans: adding public key  to github ssh section to allow to clone git repo by ssh
 
