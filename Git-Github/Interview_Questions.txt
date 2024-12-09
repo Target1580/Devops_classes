@@ -1,0 +1,6 @@
+Differece between branching and merging stratergy?
+How can you delete a branch in Git?
+difference between merge and rebase?
+how to change user and group permission?
+how to share repository via ssh?
+
