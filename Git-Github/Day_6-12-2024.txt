@@ -85,7 +85,90 @@
 
 
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Daily commands <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Daily commands <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. clear - Clears the terminal screen.  
 
+2. mv  
+  - mv source destination - Moves or renames files.  
+3. cp  
+  - cp source destination - Copies files.  
+- rm  
+  - rm file_name - Removes a file.  
+  - rm -rf dir_name - Removes a directory and its contents recursively.  
+- vi  
+  - i - Enter insert mode.  
+  - q - Quit without saving.  
+  - wq - Write (save) and quit.  
+  - w! - Force write to a file.
+
+ 
+- whoami - Prints the current username.  
+- top - Displays a dynamic list of running processes.  
+- lscpu - Displays CPU architecture information.  
+- lsblk - Lists information about block devices.  
+- cat /proc/cpuinfo - Displays CPU details.  
+- lshw - Displays detailed hardware information.
+
+
+ 
+- sudo su - Switches to the superuser.  
+- cd  
+  - cd ~ - Navigates to the home directory.  
+  - cd .. - Moves one directory up.  
+  - cd / - Navigates to the root directory.  
+  - cd dir1/dir2/dir3 - Navigates through multiple directories.
+
+ 
+- mkdir  
+  - mkdir -p - Creates directories, including parent directories if needed.  
+
+- touch - Creates an empty file.  
+
+- ls  
+  - ls -l - Lists files with detailed info.  
+  - ls -la - Lists all files, including hidden ones, with details.  
+  - ls -a - Lists all files, including hidden ones. 
+
+- pwd - Prints the current working directory.  
+
+- cat  
+  - cat file_name - Displays the content of a file.  
+  - cat -n file_name - Shows line numbers while displaying the content.  
+  - cat > new_file_name - Creates a new file and writes to it.  
+  - cat file1 >> file2 - Appends content of file1 to file2.  
+
+
+
+- tree: Displays directory structure in a tree-like format.  
+  Example: tree -L 2 (shows directories up to 2 levels).
+
+- head: Shows the first 10 lines of a file.  
+  Example: head -n 5 file.txt (shows first 5 lines).
+
+- less: Opens a file for scrollable viewing.  
+  Example: less file.txt (Space to scroll, q to quit).
+
+- tail: Shows the last 10 lines of a file.  
+  Example: tail -n 5 file.txt (shows last 5 lines).  
+
+
+ - df   : Displays the disk space usage on file systems.
+ - df -h : Displays disk space usage in human-readable format
+ - useradd -m username  : Creates a user with a home directory.
+ - passwd username  - To add a password for a user in Linux, use the passwd command
+ - groupadd groupname : Adds a new group to the system.
+ - usermod -aG groupname username :Adds a user to a group.
+
+
+
+ 4-12-2024
+ - gpasswd groupname : Sets or updates the password for a group.
+- groupdel groupname : This removes the group.
+- userdel -r tanmay : This removes the user tanmay and deletes their home directory
+- cat /etc/passwd : Lists all users on the system.
+- cat /etc/group : Lists all groups on the system
+
+
+6-12-2024
 ssh-keygen
 git init
