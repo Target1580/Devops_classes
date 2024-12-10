@@ -82,8 +82,19 @@
 - cat /etc/group : Lists all groups on the system
 
 
-6-12-2024
+
 ssh-keygen
 git init
+id -u demo
+id -g devops
+
+9-12-2024
+scp
+cherry-pick
+
+
+
+
+
 
 
